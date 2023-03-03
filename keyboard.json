@@ -1,0 +1,32 @@
+{
+    "one_time": false,
+    "buttons": [
+        [{
+                "action": {
+                    "type": "text",
+                    "payload": "{\"button\": \"1\"}",
+                    "label": "Перебить"
+                },
+                "color": "primary"
+            },
+            {
+                "action": {
+                    "type": "text",
+                    "payload": "{\"button\": \"2\"}",
+                    "label": "Убрать слот"
+                },
+                "color": "negative"
+            }
+        ],
+        [
+          {
+                "action": {
+                    "type": "text",
+                    "payload": "{\"button\": \"1\"}",
+                    "label": "Выключить проверку"
+                },
+                "color": "secondary"
+            }
+        ]
+    ]
+}
